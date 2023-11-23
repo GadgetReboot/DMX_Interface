@@ -6,7 +6,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "DMX Interface"
-Date "2023-11-13"
+Date "2023-11-23"
 Rev "1"
 Comp "Gadget Reboot"
 Comment1 "https://www.youtube.com/gadgetreboot"
@@ -360,7 +360,7 @@ L Device:R_Small_US R4
 U 1 1 652730A0
 P 8100 4050
 F 0 "R4" V 8050 3950 50  0000 R CNN
-F 1 "DNI" V 8050 4200 50  0000 R CNN
+F 1 "0r" V 8050 4200 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8100 4050 50  0001 C CNN
 F 3 "~" H 8100 4050 50  0001 C CNN
 	1    8100 4050
@@ -371,7 +371,7 @@ L Device:R_Small_US R6
 U 1 1 65276454
 P 8100 4200
 F 0 "R6" V 8050 4100 50  0000 R CNN
-F 1 "0r" V 8050 4350 50  0000 R CNN
+F 1 "DNI" V 8050 4350 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8100 4200 50  0001 C CNN
 F 3 "~" H 8100 4200 50  0001 C CNN
 	1    8100 4200
@@ -401,7 +401,7 @@ L Device:R_Small_US R5
 U 1 1 6527F007
 P 7025 4200
 F 0 "R5" V 6975 4100 50  0000 R CNN
-F 1 "0r" V 6975 4350 50  0000 R CNN
+F 1 "DNI" V 6975 4350 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7025 4200 50  0001 C CNN
 F 3 "~" H 7025 4200 50  0001 C CNN
 	1    7025 4200
@@ -412,7 +412,7 @@ L Device:R_Small_US R3
 U 1 1 65282B5E
 P 7025 4050
 F 0 "R3" V 6975 3950 50  0000 R CNN
-F 1 "DNI" V 6975 4200 50  0000 R CNN
+F 1 "0r" V 6975 4200 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7025 4050 50  0001 C CNN
 F 3 "~" H 7025 4050 50  0001 C CNN
 	1    7025 4050
@@ -675,5 +675,5 @@ Wire Wire Line
 Text Notes 6225 3650 0    50   ~ 0
 Termination \nJumper
 Text Notes 6825 3725 0    70   ~ 0
-Default Config: Transmitter
+Default Config: Receiver
 $EndSCHEMATC
